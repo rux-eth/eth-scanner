@@ -1,15 +1,5 @@
-# Basic Sample Hardhat Project
+# eth-scanner
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+The purpose of this library is to get token balances (ERC20, ERC721, and ERC1155) for an ethereum address with functionality to get the exchange rates for each token as well. The goal was to do it without the need for an API key but have an option for a user supplied one.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+NOTE: This library is incomplete and I may or may not come back and complete it. I would love to, but i just dont have time at the moment. If I do, I will open a trello board to manage it and I will post the link here.
